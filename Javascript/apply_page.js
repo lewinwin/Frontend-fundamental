@@ -78,7 +78,7 @@ function updateTable(rank,listRank,divisionName,teamName,listGroup){
     const row=document.querySelector(`tbody tr:nth-child(${rank})`);
     listRank[rank]=[divisionName,teamName];
     listGroup.push(teamName);
-    rankChosenList.push(rank);
+    rankChosenList.add(rank);
     renderTable(row,rank,listRank);
     if (rank===1){
         alert(`You have chosen ${teamName} as your 1st chosen group in ${divisionName} successfully`);
@@ -168,7 +168,7 @@ submit.addEventListener('click',(e)=>{
 function clearButton(){
     listGroup=[];
     listRank={};
-    rankChosenList=[];
+    rankChosenList = new Set();
     for (let j=1; j<=10; j++){
         listRank[j]=0;
     }
