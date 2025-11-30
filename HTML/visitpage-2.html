@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="author" content="Le Win">
+        <meta name="description" content="">
+        <meta name="keywords" content="CW1, Web Page,HTML5">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../CSS/overall.css" media="all" type="text/css">
+        <link rel="stylesheet" href="../CSS/visit.css" media="screen" type="text/css">
+        <title>Visit Page</title>
+    </head>
+    <body>
+        <header>
+            <div class="name">
+            <img src="../image/logo.png" alt="Intelligent Sensing Lab" class="ISLab-logo">
+            <h1>Intelligent Sensing Lab</h1>
+            </div>
+        </header>
+        <nav>
+                <a href="homepage-2.html"><p class="link-page">Home</p></a>
+                <a href="aboutpage-2.html"><p class="link-page">About</p></a>
+                <a href="applypage-2.html"><p class="link-page">Apply</p></a>
+                <a href="visitpage-2.html"><p class="link-page">Visit</p></a>
+                <a href="informationpage-2.html"><p class="link-page information">Information</p></a>
+                <a href="contactpage-2.html"><p class="link-page">Contact</p></a>
+        </nav>
+        <!--Block 1: The welcome block-->
+        <div class="welcome-block">
+            <div class="inner-welcome">
+            <p>Visit Intelligent Sensing Lab to witness groundbreaking research in sensor technology. Our facility features:</p>
+            <ul>
+                <li>Cleanroom for nanoscale sensor fabrication</li>
+                <li>Environmental testing chambers</li>
+                <li>Sensor calibration and validation center</li>
+                <li>Prototyping workshop</li>
+            </ul>
+            <p>During your tour, you'll:</p>
+            <ul>
+                <li>See live demonstrations of our latest sensors</li>
+                <li>Meet leading researchers in optical, bio, and smart sensing</li>
+                <li>Learn about career and collaboration opportunities</li>
+            </ul>
+            </div>
+        </div>
+        <!--Block 2: The location block-->
+        <div class="location-block">
+            <div class="img-div">
+                <img src="../image/location.png" alt="Location" class="map-img">
+            </div>
+            <div class="detail-block">
+                <div class="location-detail">
+                    <h2>Location</h2>
+                    <p>Address: Tat Chee Avenue, Kowloon, Hong Kong SAR</p>
+                    <p>Tel: (852) 9876 5432</p>
+                    <p>Email: visit@intelligentsensinglab.edu.hk</p>
+                </div>
+            </div>
+        </div>
+        <!--Block 3: The reservation block-->
+        <div class="reservation-block">
+            <h2>Annual Open Day Registration</h2>
+            <div class="form-block">
+                <form id="visitForm" method="get">
+                    <fieldset>
+                        <legend>Booking information:</legend>
+                        <label for="date" id="label1">Date:</label>
+                        <input type="date" id="date" name="Date"><br>
+                        <label for="time" id="label2">Time:</label>
+                        <select id="time" name="Time">
+                            <option value="9:00-10:00am">9:00-10:00am</option>
+                            <option value="10:00-11:00am">10:00-11:00am</option>
+                            <option value="2:00-3:00pm">2:00-3:00pm</option>
+                            <option value="3:00-4:00pm">3:00-4:00pm</option>
+                            <option value="4:00-5:00pm">4:00-5:00pm</option>
+                        </select><br>
+                        <label for="visit" id="label3">No.of Visitors:</label>
+                        <input type="text" id="visit" name="numbervisit"><br>
+                        <div class="annouce-block"></div>
+                        <button type="submit" id="submit">Check Availability</button>
+                        <button type="reset" id="reset">Reset</button>
+                    </fieldset>
+                </form>
+            </div>
+        </div>    
+        <footer>
+            <img src="../image/footer_logo.png" alt="Footer_logo" class="footer-logo">
+            <p>&copy;CityU 2025 - sources of images and text from Wikipedia and Courtesy of Icon pack by Icons8 - designed by <a href="designpage-2.html">LE Win</a></p>
+        </footer>
+        <script src="https://personal.cs.cityu.edu.hk/~cs2204/2023/cw3cs2204.js"></script>
+        <script src="../Javascript/visit_page.js"></script>
+    </body>
+</html>

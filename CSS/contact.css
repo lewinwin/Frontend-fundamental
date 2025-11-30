@@ -1,0 +1,47 @@
+.contact-block h2{
+    text-align: center;
+    margin-bottom: 10px;
+}
+.contact-block{
+    width: fit-content;
+    margin: 50px auto;
+    margin-bottom: 145px;
+}
+.contact-table{
+    border-collapse: collapse;
+    font-size: 1.2em;
+}
+.contact-table thead tr{
+    background-color: rgb(171, 223, 255);
+    font-weight: bold;
+}
+.contact-table tbody tr td:nth-child(4){
+    word-wrap: break-word;
+    word-break: break-all;
+}
+.contact-table, th, td{
+    border: 1px solid rgba(117, 129, 141, 0.545);
+}
+th,td{
+    text-align: center;
+}
+.contact-table th,
+.contact-table td{
+    padding: 5px;
+}
+.contact-table tbody tr:nth-child(even){
+    background-color: rgb(214, 243, 255);
+    transition: background-color 0.3s;
+}
+.contact-table tbody tr:nth-child(even):hover{
+    background-color: rgb(254, 255, 211);
+    cursor: pointer;
+}
+.contact-table tbody tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.3s;
+}
+.contact-table tbody tr:nth-child(odd):hover{
+    background-color: rgb(254, 255, 211);
+    cursor: pointer;
+}

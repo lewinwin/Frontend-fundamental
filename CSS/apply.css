@@ -1,0 +1,188 @@
+/*Submit and clear link*/
+.submit,.clear{
+    display: inline-block;
+    padding: 8px 16px;
+    border: 1px solid rgb(122, 213, 255);
+    background-color: rgb(122, 213, 255);
+    color: white;
+    border-radius: 15px;
+    color: rgb(122, 213, 255);
+    font-weight: bold;
+    margin: 15px 20px;
+}
+.clear{
+    padding: 8px 22px;
+}
+.submit:link,.clear:link{
+    color: white;
+}
+.submit:visited,.clear:visited{
+    color: white;
+}
+/*Restulting Block - Edit table*/
+.resulting-block{
+    margin-top: 40px;
+}
+.resulting-block h2,.resulting-block h3, .resulting-block table,.resulting-block button{
+    margin-bottom: 22px;
+}
+.result-table{
+    border-collapse: collapse;
+    font-size: 1.2em;
+    width: 80%;
+    margin: 0 auto;
+}
+.result-table thead tr{
+    background-color: rgb(171, 223, 255);
+    font-weight: bold;
+}
+.result-table, th, td{
+    border: 1px solid rgba(117, 129, 141, 0.545);
+}
+.result-table th,
+.result-table td{
+    padding: 5px;
+}
+.result-table tbody tr:nth-child(even){
+    background-color: rgb(214, 243, 255);
+    transition: background-color 0.3s;
+}
+.result-table tbody tr:nth-child(even):hover{
+    background-color: rgb(254, 255, 211);
+    cursor: pointer;
+}
+.result-table tbody tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.3s;
+}
+.result-table tbody tr:nth-child(odd):hover{
+    background-color: rgb(254, 255, 211);
+    cursor: pointer;
+}
+.result-table tbody tr td:first-child{
+    width: 60%;
+}
+.result-table tbody tr td:nth-child(2){
+    width: 30%;
+}
+.result-table tbody tr td:nth-child(3){
+    width: 1%;
+}
+/*Welcome Block - Center text 'Welcome to ISLab'*/
+.welcome-block{
+    text-align: center;
+    margin: 20px 0;
+}
+/*Apply Block*/
+.apply-block{
+    width: 99.8%;
+    border: 1px solid blue;
+}
+/*title*/
+.researh-title {
+  width: 99%;
+  margin: 0 auto;
+}
+.researh-title h4{
+    margin-top: 10px;
+    display: inline-block;
+    width: 33%;
+    background-color:rgb(188, 254, 255);
+    padding-bottom: 10px;
+    padding-top: 10px;
+    text-align: center;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.researh-title h4:hover{
+    cursor: pointer;
+}
+.researh-title .backgroundTitle{
+    background-color: rgba(237, 237, 237, 0.537);
+}
+.h4-mid{
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+}
+/*Edit the panel*/
+.form-block{
+    display: none;
+    width: 100%;
+    height: fit-content;
+}
+.inner-img{       /*Edit each form block*/
+    width: 85%;
+    height: 290px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.register-form{
+    display: inline-block;
+    width: 32.8%;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.inner-register{
+    background-color: rgba(231, 231, 231, 0.374);
+    width: 70%;
+    margin: 0 auto;
+    padding-top: 22px;
+    padding-bottom: 22px;
+    border-radius: 15px;
+    transition: box-shadow 0.4s;
+}
+.inner-register:hover{
+    box-shadow: 4px 4px 10px rgba(193, 193, 193, 0.589);
+    cursor: pointer;
+}
+.register-form{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.register-form-mid{
+    margin-left: 0.2%;
+    margin-right: 0.2%;
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+.register-form button{
+    margin-left: 5px;
+}
+.inner-register input{
+    width: 40%;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.inner-register button{
+    background-color: #e1ecf4;
+    box-shadow: rgba(255, 255, 255, .7) 0 1px 0 0 inset;
+    color: #39739d;
+    cursor: pointer;
+    font-size: 13px;
+    border-radius: 3px;
+    text-align: center;
+    border: 1px solid #7aa7c7;
+    font-weight: 400;
+    transition: background-color 0.3s;
+}
+.inner-register button:hover{
+    background-color: #b3d3ea;
+    color: #2c5777;
+}
+.inner-register button:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
+.inner-register button:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, .15);
+}
+
+/*Edit the error message*/
+.error{
+    text-align: center;
+    color: red;
+    font-size: 1em;
+}

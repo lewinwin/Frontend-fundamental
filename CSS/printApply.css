@@ -1,0 +1,71 @@
+body{
+    padding-left: 15px;
+}
+/*nav*/
+nav{
+    display: none;
+}
+/*Submit and clear*/
+.submit, .clear{
+    display: none;
+}
+/*Restulting Block*/
+.resulting-block{
+    margin-top: 40px;
+}
+.resulting-block h2,.resulting-block h3, .resulting-block table,.resulting-block button{
+    margin-bottom: 22px;
+}
+.result-table{
+    border-collapse: collapse;
+    font-size: 1em;
+}
+.result-table thead tr{
+    font-weight: bold;
+}
+.result-table, th, td{
+    border: 1px solid rgb(0, 0, 0);
+}
+.result-table th,
+.result-table td{
+    padding: 5px;
+    padding-right: 15px;
+}
+.result-table tbody tr td:nth-child(1){
+    padding-right: 100px;
+}
+.result-table tbody tr td:nth-child(2){
+    padding-right: 160px;
+}
+.result-table tbody tr td:nth-child(3){
+    padding-right: 50px;
+}
+/*Welcome Block*/
+.welcome-block{
+    display: none;
+}
+/*Apply Block*/
+.apply-block{
+    display: none;
+}
+/*Head*/
+header{
+    background: white;
+}
+.ISLab-logo{
+    width: 35%;
+}
+.name h1{
+    font-size: 2.8rem;
+}
+/*footer*/
+footer{
+    background: rgb(255, 255, 255);
+}
+a{
+    color: black !important;
+}
+header .name h1{
+    animation-name: h1Animate;
+    animation-iteration-count: 0;
+}

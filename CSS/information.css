@@ -1,0 +1,73 @@
+body{
+    overflow-x: hidden;
+}
+/*Style the text and video*/
+.promotion-block{
+    width: 100%;
+    margin-left: 50px;
+}
+.promotion-block h1{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.promotion-block h2{
+    font-size: 1em;
+}
+.text-video{
+    width: 100%;
+}
+.text-video h2{
+    width: 41%;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 10%;
+}
+.text-video2 h2{
+    margin-right: 9.7%;
+}
+.text-video video{
+    display: inline-block;
+    width: 30%;
+}
+/*table block*/
+.table-block{
+    width: fit-content;
+    margin: 50px 0;
+    position: relative; /*To center the table*/
+    left: 50%;
+    transform: translateX(-50%);
+}
+.info-table{
+    border-collapse: collapse;
+    font-size: 1.2em;
+}
+.info-table thead tr{
+    background-color: rgb(171, 223, 255);
+    font-weight: bold;
+}
+.info-table, th, td{
+    border: 1px solid rgba(117, 129, 141, 0.545);
+}
+th,td{
+    text-align: center;
+}
+.info-table th,
+.info-table td{
+    padding: 5px;
+}
+.info-table tbody tr:nth-child(even){
+    background-color: rgb(214, 243, 255);
+    transition: background-color 0.3s;
+}
+.info-table tbody tr:nth-child(even):hover{
+    background-color: rgb(254, 255, 211);
+    cursor: pointer;
+}
+.info-table tbody tr:nth-child(odd){
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.3s;
+}
+.info-table tbody tr:nth-child(odd):hover{
+    background-color: rgb(254, 255, 211);
+    cursor: pointer;
+}

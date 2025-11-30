@@ -1,0 +1,29 @@
+.welcome{
+    background-color: rgb(222, 248, 255);
+    margin-bottom: 25px;
+    margin-top: 18px;
+    padding: 5px;
+}
+.left-info{
+    float: left;
+    width: 40%;
+}
+.right-info{
+    float: right;
+    width: 40%;
+    padding-right: 50px;
+}
+#location-map{
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    height: auto;
+    border-radius: 10px;
+}
+#apply-button{
+    width: 45%;
+    height: auto;
+}
+footer{
+    clear: both;
+}
