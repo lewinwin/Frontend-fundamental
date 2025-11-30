@@ -37,7 +37,7 @@ smart.addEventListener('click',()=>{showPanel('smart')});
 // ranking
 const rankChoices=document.querySelectorAll('.inner-register button');
 let listRank={};
-let rankChosenList=[];
+let rankChosenList = new Set();
 for (let i=1; i<=10; i++){
     listRank[i]=0;
 }
